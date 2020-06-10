@@ -1,1 +1,1 @@
-Projeto destinado para a conclusao do curso da {Reprograma}
+Projeto destinado para a conclusão do curso da {Reprograma}
