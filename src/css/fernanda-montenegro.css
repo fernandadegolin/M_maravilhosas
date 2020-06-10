@@ -1,0 +1,284 @@
+/* BANNER */
+
+.header-fernanda {
+    min-height: 70vh;
+    height: 480px;
+    background: linear-gradient(to top, rgba(3, 3, 3, 0.781) 0, rgba(196, 61, 223, 0.418) 50%, black 100%), url(../assets/banner.jpg);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+  }
+  
+  .titulo {
+    text-align: right;
+    font-family: 'Roboto Slab';
+    font-size: 2rem;
+    color: #674582;
+  }
+  
+  .header_titulo {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 0px 5px 15px #801f78;
+  }
+  
+  .header_subtitulo {
+    font-weight: 300;
+    font-size: 2rem;
+    text-shadow: 0px 0px 15px black;
+  }
+  
+  .fernanda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+  }
+  
+  .text {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #691569;
+    text-transform: uppercase;
+    text-align: end;
+    padding: 5rem 0rem 8rem 0rem;
+  }
+  
+  .fernanda_retrato {
+    width: 60rem;
+    padding: 0rem 5rem 0rem 0rem;
+    filter: contrast(1);
+  }
+  
+  .fernanda p {
+    color: #63458a;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .fernanda-subtitulo {
+    text-align: center;
+    color: #63458a;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 800;
+    padding: 5rem 0rem 2rem 0rem;
+    text-shadow: 0px 5px 15px #c5bbc4;
+  }
+  
+  .fernanda_foto-grande {
+    filter: contrast(2);
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0rem 5rem 0rem;
+  }
+  
+  .wrap {
+    padding: 5% 22%;
+  }
+  
+  .underlined {
+    color: black;
+    flex: 1;
+    font-size: 3rem;
+    line-height: 1.2;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #882688b3 0, #882688b3 100%);
+    background-position: 0 1.2em;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background .99s;
+  }
+  
+  .underlined:hover {
+    background-size: 100% 100%;
+  }
+  
+  .line {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #ececec;
+    width: 44%;
+    padding: 3rem;
+  }
+  
+  .fernanda-atriz {
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  .fernanda-atriz_container {
+    display: flex;
+    justify-content: center;
+    border: solid gainsboro 10px;
+    border-radius: 10px;
+    width: 94%;
+  }
+  
+  .fernanda-autora_dados {
+    color: #63458a;
+    padding: 3rem 3rem;
+  }
+  
+  .fernanda-autora_foto {
+    padding: 3rem 3rem;
+  }
+  
+  .autora_foto {
+    width: 15rem;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 0px;
+  }
+  
+  .fernanda-autora_titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 2.7rem;
+    color: #674582;
+  }
+  
+  .fernanda-autora_descricao {
+    color: #63458a;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  .fernanda-index {
+    text-align: right;
+    padding: 10rem 21.5rem;
+  }
+  
+  .fernanda-index_btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #674582;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Mosaico */
+  
+  .foto1, .foto2 {
+    display: flex;
+    justify-content: center;
+    filter: contrast(2);
+  }
+  
+  .maquina__img {
+    width: inherit;
+    height: 370px;
+    filter: grayscale(100%);
+    transition: all 1s;
+  }
+  
+  .ada__img {
+    width: 555px;
+    height: 370px;
+    filter: grayscale(100%);
+    transition: all 1s;
+  }
+  
+  .maquina__img:hover {
+    filter: grayscale(0%);
+  }
+  
+  .ada__img:hover {
+    filter: grayscale(0%);
+  }
+  
+  .maquina__text-caixa, .maquina__img-pequena, .ada__text-caixa, .ada__img-pequena {
+    width: 555px;
+    height: 370px;
+  }
+  
+  .ada__text {
+    text-align: left;
+    padding: 4em 1em;
+    margin-top: 0;
+  }
+  
+  .hr-maquina, .hr-ada {
+    margin-right: 15px;
+    border: 0;
+    border-top: 4px solid white;
+    width: 30%;
+  }
+  
+  .maquina {
+    color: #F3F3F3;
+    padding: 0em 1em;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .maquina__text {
+    padding: 4em 1em;
+    margin-top: 0;
+    margin-left: 82px;
+  }
+  
+  .maquina__text-caixa {
+    text-align: right;
+    padding: 4em 1em;
+    background-color: rgb(154, 114, 177);
+    filter: grayscale(100%);
+    transition: all 0.5s;
+  }
+  
+  .ada__text-caixa {
+    background-color: rgb(154, 114, 177);
+    padding: 4em 1em;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+  }
+  
+  .ada__text-caixa:hover {
+    filter: grayscale(0%);
+  }
+  
+  .maquina__text-caixa:hover {
+    filter: grayscale(0%);
+  }
+  
+  .redes_sociais {
+    display: flex;
+  }
+  
+  @media(min-width:320px) and (max-width:768px) {
+    .foto1, .foto2 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .maquina__text-caixa, .ada__text-caixa {
+      font-size: 13px;
+      width: 555px;
+      height: 210px;
+      padding: 0em 1em;
+      margin-bottom: 0.5em;
+    }
+    .hr-maquina, .hr-ada {
+      display: none;
+    }
+    .ada__text, .maquina__text {
+      margin-left: 68px;
+      width: 393px;
+      padding: 40px;
+    }
+    .seta_img {
+      width: 10%;
+    }
+  }
